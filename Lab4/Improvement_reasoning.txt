@@ -1,0 +1,3 @@
+ - There is a 50% improvement in timing when run using the new code
+ - The new code does not involve creation of a list of egg sizes before the sizes are counted. This lack of steps uses up lesser memory and speeds up the code runtime
+ - The new code is also shorter by 7 ( 12 from 19 ), which makes it better from a maintainance point of view. It also uses lesser variables and objects. 

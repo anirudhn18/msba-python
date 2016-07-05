@@ -1,0 +1,7 @@
+
+
+- Sequential is faster because it doesnt spend time in converting the file object to a python list. Instead, it reads and dumps the lines which are not required until it reaches the lines required
+
+- The user input decides how many lines it has to read and dump before it gets to the required line. In the first case, the required line was #1 whereas in the second case, the required line was #4. The latter meant that it had to read through 3 lines before coming to the 4th
+
+- I think sequential access could be slower in cases where the files are very large. In the read to list method, converting to a list might take a bit longer but would allow us to store all the lines in a list. And though this step itself would take a bit of time, the indexing property of a list would allow fast access to it once the list is complete.
