@@ -24,6 +24,7 @@ team_wins=np.array(team_wins)
 asc_order = np.transpose(np.argsort(team_wins,axis=0))[1]
 
 
+#loop to print in descending order
 for i in range(0,len(asc_order)):
     position = asc_order[len(asc_order) - i -1]
     
