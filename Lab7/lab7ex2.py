@@ -4,7 +4,7 @@ import csv
 
 ranking_list = list()
 
-with open('Ranking.txt','r') as f:
+with open('Files/Ranking.txt','r') as f:
     for row in csv.reader(f):
         ranking_list.append(row)
         

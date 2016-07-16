@@ -4,7 +4,7 @@ import numpy as np
 prev_sales_list = list()
 curr_sales_list = list()
 
-with open('Restaurants.txt','r') as f:
+with open('Files/Restaurants.txt','r') as f:
     for row in csv.reader(f):
         prev_sales_list.append(int(row[1]))
         curr_sales_list.append(int(row[2]))

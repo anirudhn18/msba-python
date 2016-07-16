@@ -4,7 +4,7 @@ import csv
 
 miles_between = np.empty([4,4],dtype = np.int32)
 
-with open('Distances.txt','r') as f:
+with open('Files/Distances.txt','r') as f:
     count = 0
     for row in csv.reader(f):
         miles_between[count] = row
